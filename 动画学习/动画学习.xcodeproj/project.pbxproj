@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95051A0719A19DB500CEF678 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95051A0519A19DB500CEF678 /* BlurViewController.m */; };
+		95051A0819A19DB500CEF678 /* BlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95051A0619A19DB500CEF678 /* BlurViewController.xib */; };
+		95308859199E03E3006CBC94 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95308858199E03E3006CBC94 /* MenuViewController.m */; };
+		95C64209199C8624007445BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64208199C8624007445BC /* main.m */; };
+		95C6420C199C8624007445BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6420B199C8624007445BC /* AppDelegate.m */; };
+		95C6420E199C8624007445BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6420D199C8624007445BC /* Images.xcassets */; };
+		95C6421A199C8624007445BC /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64219199C8624007445BC /* ____Tests.m */; };
+		95C64228199C95FC007445BC /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64227199C95FC007445BC /* DrawViewController.m */; };
+		95C6422B199C9660007445BC /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6422A199C9660007445BC /* CustomView.m */; };
+		95C6422F199CB98A007445BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6422D199CB98A007445BC /* RootViewController.m */; };
+		95C64230199CB98A007445BC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C6422E199CB98A007445BC /* RootViewController.xib */; };
+		95C64233199DDAC4007445BC /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64232199DDAC4007445BC /* ShadowView.m */; };
+		95C64235199DDBE9007445BC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C64234199DDBE9007445BC /* 8.png */; };
+		95C64238199DE145007445BC /* InvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64237199DE145007445BC /* InvertViewController.m */; };
+		95C6423C199DE157007445BC /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6423A199DE157007445BC /* AnimationViewController.m */; };
+		95C6423D199DE157007445BC /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C6423B199DE157007445BC /* AnimationViewController.xib */; };
+		95C64241199DE882007445BC /* ScaleAndMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6423F199DE882007445BC /* ScaleAndMoveViewController.m */; };
+		95C64242199DE882007445BC /* ScaleAndMoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C64240199DE882007445BC /* ScaleAndMoveViewController.xib */; };
+		95C64244199DE978007445BC /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95C64243199DE978007445BC /* bg3.png */; };
+		95C64247199DF5B6007445BC /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64246199DF5B6007445BC /* MenuButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95C64214199C8624007445BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C641FB199C8624007445BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C64202199C8624007445BC;
+			remoteInfo = "动画学习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95051A0419A19DB500CEF678 /* BlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
+		95051A0519A19DB500CEF678 /* BlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
+		95051A0619A19DB500CEF678 /* BlurViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlurViewController.xib; sourceTree = "<group>"; };
+		95308857199E03E3006CBC94 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		95308858199E03E3006CBC94 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		95C64203199C8624007445BC /* 动画学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C64207199C8624007445BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C64208199C8624007445BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95C6420A199C8624007445BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95C6420B199C8624007445BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95C6420D199C8624007445BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95C64213199C8624007445BC /* 动画学习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画学习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C64218199C8624007445BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C64219199C8624007445BC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		95C64226199C95FC007445BC /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		95C64227199C95FC007445BC /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		95C64229199C9660007445BC /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		95C6422A199C9660007445BC /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		95C6422C199CB989007445BC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		95C6422D199CB98A007445BC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		95C6422E199CB98A007445BC /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		95C64231199DDAC4007445BC /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
+		95C64232199DDAC4007445BC /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
+		95C64234199DDBE9007445BC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		95C64236199DE145007445BC /* InvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertViewController.h; sourceTree = "<group>"; };
+		95C64237199DE145007445BC /* InvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertViewController.m; sourceTree = "<group>"; };
+		95C64239199DE157007445BC /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		95C6423A199DE157007445BC /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		95C6423B199DE157007445BC /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		95C6423E199DE882007445BC /* ScaleAndMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAndMoveViewController.h; sourceTree = "<group>"; };
+		95C6423F199DE882007445BC /* ScaleAndMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAndMoveViewController.m; sourceTree = "<group>"; };
+		95C64240199DE882007445BC /* ScaleAndMoveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleAndMoveViewController.xib; sourceTree = "<group>"; };
+		95C64243199DE978007445BC /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		95C64245199DF5B6007445BC /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		95C64246199DF5B6007445BC /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C64200199C8624007445BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C64210199C8624007445BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950519FF19A19D0200CEF678 /* 按钮变换 */ = {
+			isa = PBXGroup;
+			children = (
+				95308857199E03E3006CBC94 /* MenuViewController.h */,
+				95308858199E03E3006CBC94 /* MenuViewController.m */,
+			);
+			name = "按钮变换";
+			sourceTree = "<group>";
+		};
+		95051A0019A19D1E00CEF678 /* 缩放移动 */ = {
+			isa = PBXGroup;
+			children = (
+				95C6423E199DE882007445BC /* ScaleAndMoveViewController.h */,
+				95C6423F199DE882007445BC /* ScaleAndMoveViewController.m */,
+				95C64240199DE882007445BC /* ScaleAndMoveViewController.xib */,
+			);
+			name = "缩放移动";
+			sourceTree = "<group>";
+		};
+		95051A0119A19D4600CEF678 /* 镜子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				95C64236199DE145007445BC /* InvertViewController.h */,
+				95C64237199DE145007445BC /* InvertViewController.m */,
+			);
+			name = "镜子效果";
+			sourceTree = "<group>";
+		};
+		95051A0219A19D6100CEF678 /* 绘制图形 */ = {
+			isa = PBXGroup;
+			children = (
+				95C64226199C95FC007445BC /* DrawViewController.h */,
+				95C64227199C95FC007445BC /* DrawViewController.m */,
+			);
+			name = "绘制图形";
+			sourceTree = "<group>";
+		};
+		95051A0319A19D8900CEF678 /* 图形处理 */ = {
+			isa = PBXGroup;
+			children = (
+				95051A0419A19DB500CEF678 /* BlurViewController.h */,
+				95051A0519A19DB500CEF678 /* BlurViewController.m */,
+				95051A0619A19DB500CEF678 /* BlurViewController.xib */,
+			);
+			name = "图形处理";
+			sourceTree = "<group>";
+		};
+		95C641FA199C8624007445BC = {
+			isa = PBXGroup;
+			children = (
+				95C64205199C8624007445BC /* 动画学习 */,
+				95C64216199C8624007445BC /* 动画学习Tests */,
+				95C64204199C8624007445BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95C64204199C8624007445BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C64203199C8624007445BC /* 动画学习.app */,
+				95C64213199C8624007445BC /* 动画学习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C64205199C8624007445BC /* 动画学习 */ = {
+			isa = PBXGroup;
+			children = (
+				95C64223199C8654007445BC /* Navigation */,
+				95C64224199C8654007445BC /* Resource */,
+				95C64225199C8654007445BC /* View */,
+				95C6420A199C8624007445BC /* AppDelegate.h */,
+				95C6420B199C8624007445BC /* AppDelegate.m */,
+				95C6420D199C8624007445BC /* Images.xcassets */,
+				95C64206199C8624007445BC /* Supporting Files */,
+			);
+			path = "动画学习";
+			sourceTree = "<group>";
+		};
+		95C64206199C8624007445BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95C64207199C8624007445BC /* Info.plist */,
+				95C64208199C8624007445BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95C64216199C8624007445BC /* 动画学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95C64219199C8624007445BC /* ____Tests.m */,
+				95C64217199C8624007445BC /* Supporting Files */,
+			);
+			path = "动画学习Tests";
+			sourceTree = "<group>";
+		};
+		95C64217199C8624007445BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95C64218199C8624007445BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95C64223199C8654007445BC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				95051A0319A19D8900CEF678 /* 图形处理 */,
+				95051A0219A19D6100CEF678 /* 绘制图形 */,
+				95051A0119A19D4600CEF678 /* 镜子效果 */,
+				95051A0019A19D1E00CEF678 /* 缩放移动 */,
+				950519FF19A19D0200CEF678 /* 按钮变换 */,
+				95C6422C199CB989007445BC /* RootViewController.h */,
+				95C6422D199CB98A007445BC /* RootViewController.m */,
+				95C6422E199CB98A007445BC /* RootViewController.xib */,
+				95C64239199DE157007445BC /* AnimationViewController.h */,
+				95C6423A199DE157007445BC /* AnimationViewController.m */,
+				95C6423B199DE157007445BC /* AnimationViewController.xib */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		95C64224199C8654007445BC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				95C64243199DE978007445BC /* bg3.png */,
+				95C64234199DDBE9007445BC /* 8.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		95C64225199C8654007445BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95C64229199C9660007445BC /* CustomView.h */,
+				95C6422A199C9660007445BC /* CustomView.m */,
+				95C64231199DDAC4007445BC /* ShadowView.h */,
+				95C64232199DDAC4007445BC /* ShadowView.m */,
+				95C64245199DF5B6007445BC /* MenuButton.h */,
+				95C64246199DF5B6007445BC /* MenuButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C64202199C8624007445BC /* 动画学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C6421D199C8624007445BC /* Build configuration list for PBXNativeTarget "动画学习" */;
+			buildPhases = (
+				95C641FF199C8624007445BC /* Sources */,
+				95C64200199C8624007445BC /* Frameworks */,
+				95C64201199C8624007445BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "动画学习";
+			productName = "动画学习";
+			productReference = 95C64203199C8624007445BC /* 动画学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95C64212199C8624007445BC /* 动画学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C64220199C8624007445BC /* Build configuration list for PBXNativeTarget "动画学习Tests" */;
+			buildPhases = (
+				95C6420F199C8624007445BC /* Sources */,
+				95C64210199C8624007445BC /* Frameworks */,
+				95C64211199C8624007445BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95C64215199C8624007445BC /* PBXTargetDependency */,
+			);
+			name = "动画学习Tests";
+			productName = "动画学习Tests";
+			productReference = 95C64213199C8624007445BC /* 动画学习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C641FB199C8624007445BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = cheng;
+				TargetAttributes = {
+					95C64202199C8624007445BC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					95C64212199C8624007445BC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 95C64202199C8624007445BC;
+					};
+				};
+			};
+			buildConfigurationList = 95C641FE199C8624007445BC /* Build configuration list for PBXProject "动画学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95C641FA199C8624007445BC;
+			productRefGroup = 95C64204199C8624007445BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C64202199C8624007445BC /* 动画学习 */,
+				95C64212199C8624007445BC /* 动画学习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C64201199C8624007445BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C64244199DE978007445BC /* bg3.png in Resources */,
+				95C64235199DDBE9007445BC /* 8.png in Resources */,
+				95051A0819A19DB500CEF678 /* BlurViewController.xib in Resources */,
+				95C64230199CB98A007445BC /* RootViewController.xib in Resources */,
+				95C64242199DE882007445BC /* ScaleAndMoveViewController.xib in Resources */,
+				95C6420E199C8624007445BC /* Images.xcassets in Resources */,
+				95C6423D199DE157007445BC /* AnimationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C64211199C8624007445BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C641FF199C8624007445BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C64233199DDAC4007445BC /* ShadowView.m in Sources */,
+				95C64238199DE145007445BC /* InvertViewController.m in Sources */,
+				95C64228199C95FC007445BC /* DrawViewController.m in Sources */,
+				95C6423C199DE157007445BC /* AnimationViewController.m in Sources */,
+				95C6422B199C9660007445BC /* CustomView.m in Sources */,
+				95C6420C199C8624007445BC /* AppDelegate.m in Sources */,
+				95C64209199C8624007445BC /* main.m in Sources */,
+				95051A0719A19DB500CEF678 /* BlurViewController.m in Sources */,
+				95C6422F199CB98A007445BC /* RootViewController.m in Sources */,
+				95C64247199DF5B6007445BC /* MenuButton.m in Sources */,
+				95308859199E03E3006CBC94 /* MenuViewController.m in Sources */,
+				95C64241199DE882007445BC /* ScaleAndMoveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C6420F199C8624007445BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C6421A199C8624007445BC /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95C64215199C8624007445BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C64202199C8624007445BC /* 动画学习 */;
+			targetProxy = 95C64214199C8624007445BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95C6421B199C8624007445BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95C6421C199C8624007445BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95C6421E199C8624007445BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "动画学习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		95C6421F199C8624007445BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = "动画学习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		95C64221199C8624007445BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/动画学习.app/动画学习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "动画学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		95C64222199C8624007445BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/动画学习.app/动画学习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "动画学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C641FE199C8624007445BC /* Build configuration list for PBXProject "动画学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C6421B199C8624007445BC /* Debug */,
+				95C6421C199C8624007445BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C6421D199C8624007445BC /* Build configuration list for PBXNativeTarget "动画学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C6421E199C8624007445BC /* Debug */,
+				95C6421F199C8624007445BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C64220199C8624007445BC /* Build configuration list for PBXNativeTarget "动画学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C64221199C8624007445BC /* Debug */,
+				95C64222199C8624007445BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C641FB199C8624007445BC /* Project object */;
+}

@@ -10,6 +10,7 @@
 #import "DrawViewController.h"
 #import "AnimationViewController.h"
 #import "MenuViewController.h"
+#import "BlurViewController.h"
 
 @interface RootViewController ()
 
@@ -53,6 +54,11 @@
 - (void)click3:(id)sender
 {
     [self.navigationController pushViewController:[[MenuViewController alloc]init] animated:YES];
+    
+}
+- (void)click4:(id)sender
+{
+    [self.navigationController pushViewController:[[BlurViewController alloc]init] animated:YES];
     
 }
 /*

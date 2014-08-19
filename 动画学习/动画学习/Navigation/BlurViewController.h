@@ -10,4 +10,9 @@
 
 @interface BlurViewController : UIViewController
 
+@property (nonatomic,strong) IBOutlet UIImageView *image;
+@property (nonatomic,strong) IBOutlet UIImageView *imageBlur;
+@property (nonatomic,strong) IBOutlet UIImageView *imageBlur1;
+@property (nonatomic,strong) IBOutlet UIImageView *equalization;
+
 @end

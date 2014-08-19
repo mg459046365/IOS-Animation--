@@ -7,6 +7,7 @@
 //
 
 #import "BlurViewController.h"
+#import "UIImage+vImage.h"
 
 @interface BlurViewController ()
 
@@ -19,6 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"两张模糊,直方图均衡化";
+        
     }
     return self;
 }
@@ -27,6 +30,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIImage *img = [UIImage imageNamed:@"Stars.png"];
+    UIImage *imgBlur = [img gaussianBlur];
+    self.imageBlur.image = imgBlur;
+    
+    UIImage *imageblur1 = [img blurryImagewithLevel:1.0];
+    self.imageBlur1.image = imageblur1;
+    UIImage *imageequal = [img equalization];
+    self.equalization.image = imageequal;
 }
 
 - (void)didReceiveMemoryWarning

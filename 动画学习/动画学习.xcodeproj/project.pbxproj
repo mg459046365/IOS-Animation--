@@ -10,6 +10,8 @@
 		95051A0719A19DB500CEF678 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95051A0519A19DB500CEF678 /* BlurViewController.m */; };
 		95051A0819A19DB500CEF678 /* BlurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95051A0619A19DB500CEF678 /* BlurViewController.xib */; };
 		95308859199E03E3006CBC94 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95308858199E03E3006CBC94 /* MenuViewController.m */; };
+		954BBD8E19A3213F00421172 /* UIImage+vImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BBD8D19A3213F00421172 /* UIImage+vImage.m */; };
+		954BBD9019A32F8700421172 /* Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BBD8F19A32F8700421172 /* Stars@2x.png */; };
 		95C64209199C8624007445BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64208199C8624007445BC /* main.m */; };
 		95C6420C199C8624007445BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6420B199C8624007445BC /* AppDelegate.m */; };
 		95C6420E199C8624007445BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6420D199C8624007445BC /* Images.xcassets */; };
@@ -45,6 +47,9 @@
 		95051A0619A19DB500CEF678 /* BlurViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlurViewController.xib; sourceTree = "<group>"; };
 		95308857199E03E3006CBC94 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		95308858199E03E3006CBC94 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		954BBD8C19A3213F00421172 /* UIImage+vImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+vImage.h"; sourceTree = "<group>"; };
+		954BBD8D19A3213F00421172 /* UIImage+vImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+vImage.m"; sourceTree = "<group>"; };
+		954BBD8F19A32F8700421172 /* Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stars@2x.png"; sourceTree = "<group>"; };
 		95C64203199C8624007445BC /* 动画学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C64207199C8624007445BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C64208199C8624007445BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -142,6 +147,15 @@
 			name = "图形处理";
 			sourceTree = "<group>";
 		};
+		954BBD8B19A3210F00421172 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				954BBD8C19A3213F00421172 /* UIImage+vImage.h */,
+				954BBD8D19A3213F00421172 /* UIImage+vImage.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		95C641FA199C8624007445BC = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +177,7 @@
 		95C64205199C8624007445BC /* 动画学习 */ = {
 			isa = PBXGroup;
 			children = (
+				954BBD8B19A3210F00421172 /* Common */,
 				95C64223199C8654007445BC /* Navigation */,
 				95C64224199C8654007445BC /* Resource */,
 				95C64225199C8654007445BC /* View */,
@@ -221,6 +236,7 @@
 		95C64224199C8654007445BC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				954BBD8F19A32F8700421172 /* Stars@2x.png */,
 				95C64243199DE978007445BC /* bg3.png */,
 				95C64234199DDBE9007445BC /* 8.png */,
 			);
@@ -325,6 +341,7 @@
 				95C64230199CB98A007445BC /* RootViewController.xib in Resources */,
 				95C64242199DE882007445BC /* ScaleAndMoveViewController.xib in Resources */,
 				95C6420E199C8624007445BC /* Images.xcassets in Resources */,
+				954BBD9019A32F8700421172 /* Stars@2x.png in Resources */,
 				95C6423D199DE157007445BC /* AnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +362,7 @@
 			files = (
 				95C64233199DDAC4007445BC /* ShadowView.m in Sources */,
 				95C64238199DE145007445BC /* InvertViewController.m in Sources */,
+				954BBD8E19A3213F00421172 /* UIImage+vImage.m in Sources */,
 				95C64228199C95FC007445BC /* DrawViewController.m in Sources */,
 				95C6423C199DE157007445BC /* AnimationViewController.m in Sources */,
 				95C6422B199C9660007445BC /* CustomView.m in Sources */,

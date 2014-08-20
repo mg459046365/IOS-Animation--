@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>486AD1E2-5508-498F-AD51-0C4C3906436B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>动画学习</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>55A170CC-41CF-43B9-BF6E-2C71A144E182</key>
+		<string>https://github.com/Mikora/IOS-Animation--.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>动画学习/动画学习.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>55A170CC-41CF-43B9-BF6E-2C71A144E182</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Mikora/IOS-Animation--.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>55A170CC-41CF-43B9-BF6E-2C71A144E182</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>55A170CC-41CF-43B9-BF6E-2C71A144E182</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS-Animation-动画</string>
+		</dict>
+	</array>
+</dict>
+</plist>

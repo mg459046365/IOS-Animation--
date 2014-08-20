@@ -12,6 +12,8 @@
 		95308859199E03E3006CBC94 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95308858199E03E3006CBC94 /* MenuViewController.m */; };
 		954BBD8E19A3213F00421172 /* UIImage+vImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BBD8D19A3213F00421172 /* UIImage+vImage.m */; };
 		954BBD9019A32F8700421172 /* Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BBD8F19A32F8700421172 /* Stars@2x.png */; };
+		954BBD9319A4761E00421172 /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 954BBD9219A4761E00421172 /* CustomBtn.m */; };
+		954BBD9519A4779700421172 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954BBD9419A4779700421172 /* gear@2x.png */; };
 		95C64209199C8624007445BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64208199C8624007445BC /* main.m */; };
 		95C6420C199C8624007445BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C6420B199C8624007445BC /* AppDelegate.m */; };
 		95C6420E199C8624007445BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C6420D199C8624007445BC /* Images.xcassets */; };
@@ -50,6 +52,9 @@
 		954BBD8C19A3213F00421172 /* UIImage+vImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+vImage.h"; sourceTree = "<group>"; };
 		954BBD8D19A3213F00421172 /* UIImage+vImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+vImage.m"; sourceTree = "<group>"; };
 		954BBD8F19A32F8700421172 /* Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stars@2x.png"; sourceTree = "<group>"; };
+		954BBD9119A4761E00421172 /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		954BBD9219A4761E00421172 /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
+		954BBD9419A4779700421172 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
 		95C64203199C8624007445BC /* 动画学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C64207199C8624007445BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C64208199C8624007445BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -236,6 +241,7 @@
 		95C64224199C8654007445BC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				954BBD9419A4779700421172 /* gear@2x.png */,
 				954BBD8F19A32F8700421172 /* Stars@2x.png */,
 				95C64243199DE978007445BC /* bg3.png */,
 				95C64234199DDBE9007445BC /* 8.png */,
@@ -252,6 +258,8 @@
 				95C64232199DDAC4007445BC /* ShadowView.m */,
 				95C64245199DF5B6007445BC /* MenuButton.h */,
 				95C64246199DF5B6007445BC /* MenuButton.m */,
+				954BBD9119A4761E00421172 /* CustomBtn.h */,
+				954BBD9219A4761E00421172 /* CustomBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -339,6 +347,7 @@
 				95C64235199DDBE9007445BC /* 8.png in Resources */,
 				95051A0819A19DB500CEF678 /* BlurViewController.xib in Resources */,
 				95C64230199CB98A007445BC /* RootViewController.xib in Resources */,
+				954BBD9519A4779700421172 /* gear@2x.png in Resources */,
 				95C64242199DE882007445BC /* ScaleAndMoveViewController.xib in Resources */,
 				95C6420E199C8624007445BC /* Images.xcassets in Resources */,
 				954BBD9019A32F8700421172 /* Stars@2x.png in Resources */,
@@ -363,6 +372,7 @@
 				95C64233199DDAC4007445BC /* ShadowView.m in Sources */,
 				95C64238199DE145007445BC /* InvertViewController.m in Sources */,
 				954BBD8E19A3213F00421172 /* UIImage+vImage.m in Sources */,
+				954BBD9319A4761E00421172 /* CustomBtn.m in Sources */,
 				95C64228199C95FC007445BC /* DrawViewController.m in Sources */,
 				95C6423C199DE157007445BC /* AnimationViewController.m in Sources */,
 				95C6422B199C9660007445BC /* CustomView.m in Sources */,
